@@ -1,0 +1,18 @@
+[package]
+name = "append-log"
+description = "Append-only multi-file log for fail-safe backups"
+version = "0.1.0-dev"
+authors = ["Fedor Indutny <fedor@indutny.com>"]
+edition = "2018"
+readme = "README.md"
+exclude = [".travis.yml"]
+keywords = ["append-only","log"]
+categories = ["database-implementations"]
+license = "MIT"
+repository = "https://github.com/indutny/append-multi-log"
+
+[dependencies]
+append-log = "0.1.4-dev"
+
+[dev-dependencies]
+tempfile = "^3.0.7"
