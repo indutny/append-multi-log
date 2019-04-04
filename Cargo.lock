@@ -2,18 +2,18 @@
 # It is not intended for manual editing.
 [[package]]
 name = "append-log"
-version = "0.1.0-dev"
-dependencies = [
- "append-log 0.1.4-dev (registry+https://github.com/rust-lang/crates.io-index)",
- "tempfile 3.0.7 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "append-log"
 version = "0.1.4-dev"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "crc32fast 1.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "append-multi-log"
+version = "0.1.0-dev"
+dependencies = [
+ "append-log 0.1.4-dev (registry+https://github.com/rust-lang/crates.io-index)",
+ "tempfile 3.0.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

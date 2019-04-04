@@ -1,5 +1,5 @@
 [package]
-name = "append-log"
+name = "append-multi-log"
 description = "Append-only multi-file log for fail-safe backups"
 version = "0.1.0-dev"
 authors = ["Fedor Indutny <fedor@indutny.com>"]
